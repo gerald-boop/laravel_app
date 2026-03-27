@@ -25,7 +25,8 @@
             </div>
 
             <div class="flex items-center">
-                <input type="checkbox" name="is_completed" id="is_completed" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                <input type="hidden" name="is_completed" value="0">
+                <input type="checkbox" name="is_completed" id="is_completed" value="1" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
                 <label for="is_completed" class="ml-2 block text-sm text-gray-900">Completed</label>
             </div>
 
