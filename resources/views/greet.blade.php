@@ -4,37 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greet</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .container {
-            text-align: center;
-            background: white;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-        h1 {
-            color: #333;
-            margin: 0;
-        }
-        p {
-            color: #666;
-            margin: 10px 0 0 0;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>Welcome to Laravel!</h1>
-        <p>This is the Greet View rendered by GreetController</p>
+<body class="bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-2xl max-w-md w-full text-center">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">Welcome to Laravel!</h1>
+        <p class="text-gray-600">In fulfillment for CIT18</p>
     </div>
 </body>
 </html>
