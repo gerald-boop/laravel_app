@@ -10,6 +10,9 @@
     <div class="bg-white p-8 rounded-lg shadow-2xl max-w-md w-full text-center">
         <h1 class="text-3xl font-bold text-gray-800 mb-4">Welcome to Laravel!</h1>
         <p class="text-gray-600">In fulfillment for CIT18</p>
+        <a href="{{ route('tasks.index') }}" class="inline-block mt-6 px-6 py-3 text-white font-semibold bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
+            Go to Index page
+        </a>
     </div>
 </body>
 </html>
